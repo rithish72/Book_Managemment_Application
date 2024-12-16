@@ -1,0 +1,52 @@
+.header-content {
+    min-height: 75vh;
+    background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(141, 39, 174, 0.5)), url("../../images/bookstore-header-image.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-title {
+    font-size: 4.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif; /* Added a fallback font */
+  }
+  
+  .header-text {
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .holder {
+    min-width: 100%;
+  }
+  
+  .small-header {
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 3rem; /* Adjusted for mobile */
+    }
+  
+    .header-text {
+      font-size: 1.2rem; /* Adjusted for better readability */
+      margin-top: -1rem;
+    }
+  
+    .header-content {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .small-header {
+      font-size: 1.3rem; /* Slightly smaller for mobile screens */
+    }
+  }
+  
