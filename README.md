@@ -22,10 +22,9 @@ Before running the backend, ensure you have the following installed:
    node app
    ```
 4. If successful, you will see the following messages in the terminal:
-   ```
+   
    Server is running on http://localhost:5000
 database connected successfully
-   ```
    - This confirms that the backend setup is successful.
 
 ---
