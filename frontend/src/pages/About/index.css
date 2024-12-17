@@ -1,0 +1,48 @@
+.about {
+  padding: 3rem 0;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-text p {
+  margin: 1.8rem 0;
+  opacity: 0.8;
+}
+
+.about-title {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 800px) {
+  .about-content {
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .about-title {
+      margin-top: 0;
+  }
+
+  .about-img img {
+      margin-left: 0;
+  }
+
+  .about-title {
+      font-size: 2rem;
+  }
+
+  .about-text p {
+      font-size: 1.1rem;
+  }
+}

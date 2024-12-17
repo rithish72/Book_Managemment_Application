@@ -1,0 +1,102 @@
+.contact-me-container {
+    padding: 6rem 3rem;
+    background-color: transparent;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../images/book-store-contactme-bg.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-me-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--toast-success);
+    margin-bottom: 2.5rem;
+}
+
+.contact-form {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: rgba(46, 46, 46, 0.1);
+    padding: 2rem;
+    border-radius: 1.5rem;
+    border-style: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 35%;
+    max-width: 90%;
+    transition: transform 0.3s;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 1.2rem;
+    border: 1px solid var(--toast-success);
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.contact-form button {
+    padding: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--sea-green);
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+.contact-form button:hover {
+    background-color: var(--sea-green-dark);
+}
+
+.primary-btn {
+    padding: 1.2rem 2.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 768px) {
+    .contact-me-container {
+        padding: 4rem 1.5rem;
+    }
+
+    .contact-me-container h2 {
+        font-size: 2rem;
+    }
+
+    .contact-form {
+        width: 100%;
+        max-width: none;
+        padding: 1.5rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 1rem;
+    }
+
+    .primary-btn {
+        width: 100%;
+        margin-left: 0;
+    }
+}

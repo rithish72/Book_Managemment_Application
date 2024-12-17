@@ -1,0 +1,30 @@
+.footer {
+  background-color: #333;  
+  color: var(--white-color);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.footer-text {
+  font-size: 1.6rem;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icon {
+  margin: 0 1rem;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: var(--pink-color); 
+}
