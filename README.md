@@ -1,4 +1,4 @@
-# Book Manageement Application - Prudent Company Assignment
+# Book Management Application - Prudent Company Assignment
 
 ## Main Note
 If the app's design behaves unexpectedly or is not responsive, please **reload the page** to resolve the issue.
